@@ -47,6 +47,7 @@ body {
     color: var(--foreground);
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 #popup {
@@ -118,17 +119,15 @@ body {
     justify-content: space-evenly;
 }
 
-.navbar-brand {
-    height: 100%;
-}
+
 
 .navbar-brand>img {
     width: 120px;
 }
 
-.navbar-brand:hover {
+/* .navbar-brand:hover {
     border: 2px solid #3d546e;
-}
+} */
 
 .nav-one {
     width: 105px;
@@ -242,7 +241,7 @@ body {
 
 #navbar2>a:hover {
     border: 1px solid var(--clr-light);
-    border-radius: 0.8rem;
+    border-radius: 0 rem;
 }
 
 /* width */
